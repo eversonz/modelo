@@ -1,4 +1,24 @@
-modelo
-======
+Everson E. Z. Nascimento - TQI
 
-Teste
+Java 1.6 / Struts 2/Jboss 6/Ejb 3/Webservice jax-ws/Junit 4/Eclipse
+
+webModule/testModule/ejbModulee/earModule/consoleModule/commonModule
+
+Execução:
+1. Gerar o ear do earModule - Ou utilizar o do diretorio 'files'
+2. Deploy em um servidor JEE ex: Jboss 6
+3. Executar a URL ex: http://localhost:8080/webModule
+3.1 Escolher a opção Votar ou resultado
+4. Gerar jar runnable do consoleModule
+5 Executar via shell/Dos informando o Main.class
+5.1 Se na saido do console, o exemplo da porta e contexto não baterem, informar.
+
+Obs:
+1. consoleModule - Execução (main) consumindo o jax-ws
+2. jpaModule - Não foi feito. A classe interna UrnBean.UpdateInner simulando um update a cada 10 seg desde que exista dados para serem atualizado.
+3. Consulta por dois internautas - Incompleto, qualquer um consultando.
+4. consoleModule Main.class não configurado, executado apenas via eclipse.
+
+
+
+
